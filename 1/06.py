@@ -1,0 +1,5 @@
+x = eval(input())
+y = eval(input())
+z = eval(input())
+s = (z/1.6)/((x*60+y)/(60*60))
+print("Speed:%.1f"%s)
